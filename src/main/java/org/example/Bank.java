@@ -12,7 +12,7 @@ public class Bank {
         this.account=account;
         this.balance=balance;
         this.transactions=new ArrayList<>();
-        this.transactions.add("Created account with balance "+balance);
+        this.transactions.add("Created account with balance "+ balance);
     }
     public double CheckBalance(){
         return balance;
